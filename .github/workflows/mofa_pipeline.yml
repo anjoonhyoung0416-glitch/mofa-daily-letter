@@ -3,6 +3,10 @@ name: MOFA Daily Letter Pipeline
 on:
   workflow_dispatch:
 
+  schedule:
+    - cron: "17 */3 * * *"
+      timezone: "Asia/Seoul"
+
 permissions:
   contents: read
 
