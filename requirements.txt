@@ -1,0 +1,7 @@
+requests
+feedparser
+pillow
+python-dotenv
+openai
+google-genai
+beautifulsoup4
